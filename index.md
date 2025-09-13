@@ -1,6 +1,7 @@
 ---
 title: memaelade
 pageLoadImage: /assets/keyss5.jpg
+coverImage: /assets/KEYSS1-2.jpg
 infoBlock1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
   finibus augue id tellus euismod cursus eu sit amet nibh. Nunc molestie neque
   at finibus luctus. Vestibulum volutpat sed ipsum at congue. Cras sit amet
