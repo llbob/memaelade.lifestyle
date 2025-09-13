@@ -19,7 +19,7 @@ export default async function Index() {
 
   return (
     <main>
-      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background transition-opacity duration-500 animate-fadeIn"
+      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background transition-opacity duration-2000 animate-fadeIn"
         style={{ animation: 'fadeOut 2s forwards' }}>
         {page.pageLoadImage && (
           <div className="mb-8 flex justify-center relative">
@@ -45,7 +45,7 @@ export default async function Index() {
         <Header text="" />
         <article className="mb-8">
           <div className="max-w-2xl mx-auto">
-            <h1 className="text-2xl md:text-4xl tracking-tighter leading-tight mb-0 text-center">
+            <h1 className="text-2xl md:text-4xl tracking-tighter leading-tight mb-8 text-center">
               {page.title}
             </h1>
             {/* <div className="text-base">
