@@ -15,7 +15,7 @@ infoBlock1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
   convallis interdum. Vivamus eleifend rutrum est a interdum.
 buyButtonText: Buy keyring
 buyButtonLink: https://buy.stripe.com/test_9B63cuanP6BB5JkbN373G00
-price: 15£ + VAT
+price: 50dkk + moms
 copyrightBody: >+
   All works that appear in downloaded folder do so with the consent of the
   artist/s or the copyright 
