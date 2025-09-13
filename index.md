@@ -5,7 +5,7 @@ coverImage: /assets/album/test-6.jpg
 infoBlock1: Contains 13 tracks – including all singles released throughout
   2024/2025 + an additional bonus track, stems and extra digital items.
 buyButtonText: Buy keyring
-buyButtonLink: https://buy.stripe.com/test_7sIdTXczf3Zy9mE5kk
+buyButtonLink: https://buy.stripe.com/test_9B63cuanP6BB5JkbN373G00
 price: 15£ + VAT
 copyrightBody: >+
   All works that appear in downloaded folder do so with the consent of the
