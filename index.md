@@ -13,7 +13,6 @@ infoBlock1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
   placerat ex. Quisque aliquet leo et ante porta, sit amet tempor ex lacinia. In
   ullamcorper libero mauris, nec laoreet arcu vestibulum in. Sed interdum ut dui
   convallis interdum. Vivamus eleifend rutrum est a interdum.
-buyButtonText: Buy keyring
 buyButtonLink: https://buy.stripe.com/test_9B63cuanP6BB5JkbN373G00
 price: 50dkk + moms
 copyrightBody: >+
