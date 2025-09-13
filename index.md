@@ -1,16 +1,9 @@
 ---
-title: Memaelade – online store
+title: Memaelade
 pageLoadImage: /assets/album/landingprogress.png
-releaseCode: No release code
-duration: 00:35:11
 coverImage: /assets/album/test-6.jpg
 infoBlock1: Contains 13 tracks – including all singles released throughout
   2024/2025 + an additional bonus track, stems and extra digital items.
-infoBlock2: This version is download only; physical version is only sold at
-  shows. Purchased album will be delivered by e-mail.
-infoBlock3: All proceeds go directly to us in Memaelade, which makes it possible
-  for us to go on tour and make more music. We have no additional funding –
-  every purchase makes a huge difference.
 buyButtonText: Buy digital album
 buyButtonLink: https://horsevision.lemonsqueezy.com/buy/6dfc4aa0-cbe0-4598-8b51-66b7092cd7af?embed=1&media=0&logo=0
 price: 15£ + VAT

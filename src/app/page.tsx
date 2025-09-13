@@ -45,13 +45,12 @@ export default async function Index() {
         <Header text="" />
         <article className="mb-8">
           <div className="max-w-2xl mx-auto">
-            <h1 className="text-2xl md:text-4xl tracking-tighter leading-tight mb-0">
+            <h1 className="text-2xl md:text-4xl tracking-tighter leading-tight mb-0 text-center">
               {page.title}
             </h1>
-            <div className="text-base">
-              <p>{page.releaseCode}</p>
-              <p>{page.duration}</p>
-            </div>
+            {/* <div className="text-base">
+              <p></p>
+            </div> */}
 
             {page.coverImage && (
               <div className="mb-8 md:mb-16 sm:mx-0">
@@ -71,28 +70,15 @@ export default async function Index() {
               <div className="mt-6 space-y-6">
                 {page.infoBlock1 && (
                   <div className="prose">
-                    <p><span className="mr-2">﹂</span>{page.infoBlock1}</p>
-                  </div>
-                )}
-
-                {page.infoBlock2 && (
-                  <div className="prose">
-                    <p><span className="mr-2">﹂</span>{page.infoBlock2}</p>
-                  </div>
-                )}
-
-                {page.infoBlock3 && (
-                  <div className="prose">
-                    <p><span className="mr-2">﹂</span>{page.infoBlock3}</p>
+                    <p>{page.infoBlock1}</p>
                   </div>
                 )}
               </div>
 
               {page.buyButtonText && (
                 <div className="mt-8 flex">
-                  <span className="mr-2 text-2xl">﹂</span>
                   <div className="block">
-                    <a href={page.buyButtonLink} className="lemonsqueezy-button"><p className="text-2xl font-bold inline-flex items-center">{page.buyButtonText}<ArrowRight className="w-10 h-7 mt-1" /></p></a>
+                    <a href={page.buyButtonLink} className="lemonsqueezy-button"><p className="text-2xl font-bold inline-flex items-center">{page.buyButtonText}</p></a>
                     {page.price && (
                       <p className="text-base-text">{page.price}</p>
                     )}
