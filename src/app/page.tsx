@@ -92,7 +92,7 @@ export default async function Index() {
             <PostBody content={content} />
 
             {page.copyrightBody && (
-              <footer className="mt-12 text-xs text-center">
+              <footer className="mt-8 text-xs text-center">
                 <p className="text-subtle">{page.copyrightBody}</p>
                 <p className="text-subtle mt-2">{page.copyrightEndText}</p>
               </footer>

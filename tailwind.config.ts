@@ -20,7 +20,7 @@ const config: Config = {
         success: "#0070f3",
         cyan: "#79FFE1",
         background: "#F8F8F8",
-        "base-text": "#999999",
+        "base-text": "#000",
       },
       textColor: {
         "subtle": "#E0DDDE",
