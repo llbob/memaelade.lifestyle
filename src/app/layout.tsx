@@ -56,7 +56,9 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className="bg-background">
-        <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+        <script async
+          src="https://js.stripe.com/v3/buy-button.js">
+        </script>
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>

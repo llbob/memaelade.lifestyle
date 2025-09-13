@@ -5,7 +5,7 @@ coverImage: /assets/album/test-6.jpg
 infoBlock1: Contains 13 tracks – including all singles released throughout
   2024/2025 + an additional bonus track, stems and extra digital items.
 buyButtonText: Buy keyring
-buyButtonLink: https://horsevision.lemonsqueezy.com/buy/6dfc4aa0-cbe0-4598-8b51-66b7092cd7af?embed=1&media=0&logo=0
+buyButtonLink: https://buy.stripe.com/test_7sIdTXczf3Zy9mE5kk
 price: 15£ + VAT
 copyrightBody: >+
   All works that appear in downloaded folder do so with the consent of the
