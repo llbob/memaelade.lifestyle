@@ -53,11 +53,16 @@ const config: Config = {
         revealFromLeft: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(100%)' },
+        },
+        pulse: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.7' },
         }
       },
       animation: {
         'fadeIn': 'fadeIn 1s ease-in-out',
         'revealFromLeft': 'revealFromLeft 2s forwards',
+        'pulse': 'pulse 1.5s ease-in-out infinite',
       },
     },
   },

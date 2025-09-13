@@ -31,11 +31,11 @@ export default async function Index() {
                 height={300}
                 className="w-auto h-auto"
               />
-              <div className="absolute inset-0 bg-background animate-revealFromLeft opacity-70 blur-md" 
-                   style={{ 
-                     width: '300%', 
-                     left: '-100%'
-                   }} />
+              <div className="absolute inset-0 bg-background animate-revealFromLeft opacity-70 blur-md"
+                style={{
+                  width: '300%',
+                  left: '-100%'
+                }} />
             </div>
           </div>
         )}
@@ -66,7 +66,16 @@ export default async function Index() {
 
             <div className="mb-8 text-lg">
 
-
+              {page.buyButtonText && (
+                <div className="mt-8 flex">
+                  <div className="block">
+                    <a href={page.buyButtonLink} className="lemonsqueezy-button"><p className="text-2xl font-bold inline-flex items-center underline">{page.buyButtonText}</p></a>
+                    {page.price && (
+                      <p className="text-base-text italic">{page.price}</p>
+                    )}
+                  </div>
+                </div>
+              )}
               <div className="mt-6 space-y-6">
                 {page.infoBlock1 && (
                   <div className="prose">
@@ -75,16 +84,7 @@ export default async function Index() {
                 )}
               </div>
 
-              {page.buyButtonText && (
-                <div className="mt-8 flex">
-                  <div className="block">
-                    <a href={page.buyButtonLink} className="lemonsqueezy-button"><p className="text-2xl font-bold inline-flex items-center">{page.buyButtonText}</p></a>
-                    {page.price && (
-                      <p className="text-base-text">{page.price}</p>
-                    )}
-                  </div>
-                </div>
-              )}
+
 
 
             </div>
