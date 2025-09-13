@@ -1,5 +1,5 @@
 ---
-title: Memaelade
+title: memaelade
 pageLoadImage: /assets/album/landingprogress.png
 coverImage: /assets/album/test-6.jpg
 infoBlock1: Contains 13 tracks – including all singles released throughout
