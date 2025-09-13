@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: Arial, sans-serif;
+    @apply bg-background text-base-text;
+    min-height: 100%;
+  }
+
+  body {
+    position: relative;
+    background-color: #f8f8f8;
+  }
+}
+
+@keyframes fadeOut {
+  0%,
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
