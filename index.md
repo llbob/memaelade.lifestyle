@@ -2,17 +2,9 @@
 title: memaelade
 pageLoadImage: /assets/Loading.png
 coverImage: /assets/KEYSS1-2.jpg
-infoBlock1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-  finibus augue id tellus euismod cursus eu sit amet nibh. Nunc molestie neque
-  at finibus luctus. Vestibulum volutpat sed ipsum at congue. Cras sit amet
-  porttitor sem, a auctor ipsum. Curabitur sem purus, ornare non enim eu,
-  dapibus tristique dui. Pellentesque ac ipsum non enim laoreet aliquam ut in
-  metus. Etiam fermentum augue nec felis interdum cursus. Suspendisse sit amet
-  finibus magna. Phasellus eget nulla a felis blandit tempor quis a mauris.
-  Etiam sit amet varius nisi. Cras feugiat dignissim pharetra. Mauris et
-  placerat ex. Quisque aliquet leo et ante porta, sit amet tempor ex lacinia. In
-  ullamcorper libero mauris, nec laoreet arcu vestibulum in. Sed interdum ut dui
-  convallis interdum. Vivamus eleifend rutrum est a interdum.
+infoBlock1: "Carry a piece of the memaelade universe with you! One side shows
+  memaelade, the other a unique image inspired by our meme page and the
+  wonderful city of copenhagen. "
 buyButtonText: Sold out
 buyButtonLink: https://buy.stripe.com/9B63cuanP6BB5JkbN373G00
 price: 50dkk + moms
