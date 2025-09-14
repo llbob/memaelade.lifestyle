@@ -76,7 +76,7 @@ export default async function Index() {
                       <p className="text-2xl font-bold inline-flex items-center text-white">Sold out</p>
                     </a>
                     {page.price && (
-                      <p className="text-base-text">{page.price}</p>
+                      <p className="text-base-text text-center">{page.price}</p>
                     )}
                   </div>
                 </div>
