@@ -63,24 +63,13 @@ export default async function Index() {
                 />
               </div>
             )}
-
-            <div className="mb-8 text-lg">
-
-
-              <div className="mt-6 space-y-6">
-                {page.infoBlock1 && (
-                  <div className="prose">
-                    <p>{page.infoBlock1}</p>
-                  </div>
-                )}
-              </div>
-
-              {page.buyButtonText && (
+          
+             {page.buyButtonText && (
                 <div className="mt-8 flex justify-center">
                   <div className="block">
                     <a
                       href="#"
-                      className="lemonsqueezy-button pointer-events-none opacity-70 bg-gray-700 cursor-not-allowed"
+                      className="lemonsqueezy-button pointer-events-none opacity-70 bg-gray-800 cursor-not-allowed"
                       aria-disabled="true"
                       tabIndex={-1}
                     >
@@ -92,6 +81,16 @@ export default async function Index() {
                   </div>
                 </div>
               )}
+
+            <div className="mb-8 text-lg">
+              <div className="mt-6 space-y-6">
+                {page.infoBlock1 && (
+                  <div className="prose">
+                    <p>{page.infoBlock1}</p>
+                  </div>
+                )}
+              </div>
+
 
 
             </div>
