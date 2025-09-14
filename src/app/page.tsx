@@ -76,7 +76,7 @@ export default async function Index() {
               </div>
 
               {page.buyButtonText && (
-                <div className="mt-8 flex">
+                <div className="mt-8 flex justify-center">
                   <div className="block">
                     <a
                       href="#"
