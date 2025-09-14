@@ -7,7 +7,7 @@ infoBlock1: "Carry a piece of the memaelade universe with you! One side shows
   wonderful city of copenhagen. "
 buyButtonText: Sold out
 buyButtonLink: https://buy.stripe.com/9B63cuanP6BB5JkbN373G00
-price: 50dkk + moms
+price: 70 dkk
 copyrightBody: >+
   All works that appear in downloaded folder do so with the consent of the
   artist/s or the copyright 
