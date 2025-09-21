@@ -94,7 +94,7 @@ export default async function Index() {
               </div> */}
               <div className="mt-6 space-y-6">
                 <div className="prose">
-                  <p><span className="italic">"It's all inspired by the copenhagen lifestyle."</span> - memaelade</p>
+                  <p><span className="italic">"It's all inspired by the copenhagen lifestyle"</span> - memaelade</p>
                 </div>
               </div>
             </div>
