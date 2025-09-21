@@ -89,12 +89,20 @@ export default async function Index() {
                   </div>
                 )}
               </div>
+              {/* <div className="mt-6 space-y-6">
+                <a href="/assets/keyssss22.jpeg" target="_blank" className="underline italic inline-flex items-center">See available designs <ArrowRight className="ml-1" size={16} /></a>
+              </div> */}
+              <div className="mt-6 space-y-6">
+                <div className="prose">
+                  <p><span className="italic">"It's all inspired by the copenhagen lifestyle."</span> - memaelade</p>
+                </div>
+              </div>
             </div>
 
             <PostBody content={content} />
           </div>
         </article>
-        
+
         {page.copyrightBody && (
           <footer className="max-w-2xl py-4 mt-auto text-xs text-center mx-auto w-full">
             <p className="text-subtle">{page.copyrightBody}</p>
