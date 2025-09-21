@@ -65,22 +65,20 @@ export default async function Index() {
             )}
           
              {page.buyButtonText && (
-                <div className="mt-8 flex justify-center">
-                  <div className="block">
-                    <a
-                      href="#"
-                      className="lemonsqueezy-button pointer-events-none opacity-70 bg-gray-800 cursor-not-allowed"
-                      aria-disabled="true"
-                      tabIndex={-1}
-                    >
-                      <p className="text-2xl font-bold inline-flex items-center text-white">Sold out</p>
-                    </a>
-                    {page.price && (
-                      <p className="text-base-text text-center">{page.price}</p>
-                    )}
-                  </div>
-                </div>
-              )}
+              <div className="mt-8 flex justify-center">
+               <div className="block">
+             <a
+                href={page.buyButtonLink}
+                className="lemonsqueezy-button bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl min-w-[200px] flex items-center justify-center"
+              target="_blank" >
+              <p className="text-2xl font-bold inline-flex items-center">{page.buyButtonText}</p>
+            </a>
+               {page.price && (
+        <p className="text-base-text text-center">{page.price}</p>
+                )}
+              </div>
+              </div>
+                )}
 
             <div className="mb-8 text-lg">
               <div className="mt-6 space-y-6">
