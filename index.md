@@ -1,9 +1,10 @@
 ---
 title: memaelade
 pageLoadImage: /assets/Loading.png
-infoBlock1: "Carry a piece of the memaelade universe with you! One side shows
-  memaelade, the other a unique image inspired by our meme page and copenhagen
-  lifestyle. "
+infoBlock1: "Carry a piece of the unlimited limited memaelade universe with you!
+  One side shows memaelade, the other a unique image inspired by our meme page
+  and Copenhagen lifestyle. Click 'buy keyring' and get directed to the
+  memaelade \"webshop\". "
 buyButtonText: Buy keyring
 buyButtonLink: https://www.vinted.dk/member/285325938-memaelade
 copyrightBody: >+
