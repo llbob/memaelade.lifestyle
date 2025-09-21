@@ -1,4 +1,3 @@
-import Footer from "@/app/_components/footer";
 import { CMS_NAME } from "@/lib/constants";
 import type { Metadata } from "next";
 
@@ -59,8 +58,7 @@ export default function RootLayout({
         <script async
           src="https://js.stripe.com/v3/buy-button.js">
         </script>
-        <div className="min-h-screen">{children}</div>
-        <Footer />
+        <div className="min-h-[100dvh]">{children}</div>
       </body>
     </html>
   );
