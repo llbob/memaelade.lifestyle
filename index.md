@@ -1,6 +1,7 @@
 ---
 title: memaelade
 pageLoadImage: /assets/Loading.png
+coverImage: /assets/IMG_1715.jpg
 infoBlock1: "Carry a piece of the unlimited limited memaelade universe with you!
   One side shows memaelade, the other a unique image inspired by our meme page
   and Copenhagen lifestyle. Click 'buy keyring' and get directed to the
