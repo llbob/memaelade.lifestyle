@@ -70,7 +70,7 @@ export default async function Index() {
                 <div className="block">
                   <a
                     href={page.buyButtonLink}
-                    className="lemonsqueezy-button bg-black hover:bg-gray-200 hover:text-black text-white px-8 py-4 min-w-[200px] flex items-center rounded-md justify-center"
+                    className="lemonsqueezy-button bg-gray-200 hover:bg-gray-200 hover:text-black text-black px-8 py-4 min-w-[200px] flex items-center rounded-md justify-center pointer-events-none opacity-60 cursor-not-allowed"
                     target="_blank" >
                     <p className="text-2xl font-bold inline-flex items-center">{page.buyButtonText}</p>
                   </a>
